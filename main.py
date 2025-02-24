@@ -55,10 +55,10 @@ def phase_1():
     label.destroy()
 
     #adds instructions for the next stage
-    label.configure(text="Please Login to any account\n with access to merge mailout groups\n\nPress continue AFTER you login", font=("arial",20))
+    label.configure(text="Please Login to any account\n with access to merge mailout groups\n\nPress continue AFTER you login")
     label.pack(pady=15)
 
-    cont_button.configure(text="Continue", font=("arial",30), corner_radius=30, state=DISABLED,  command= lambda: phase_2())
+    cont_button.configure(state=DISABLED,  command= lambda: phase_2())
     cont_button.pack(pady=15)
 
     GUI.after(20000, active)
