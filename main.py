@@ -51,7 +51,7 @@ def phase_3():
         if value in students:
             index_list.append(index)
 
-    for i in checkbox_data[1:]:
+    for i in checkbox_data:
             checkbox.append(i)
 
     for i in index_list:
