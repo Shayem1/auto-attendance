@@ -41,8 +41,8 @@ def phase_3():
     checkbox = []
     index_list = []
 
-    found_data = driver.find_elements(By.XPATH ,'//*[@id="myForm"]/table/tbody/tr/td[4]') 
-    checkbox_data = driver.find_elements(By.XPATH ,'/html/body/div[1]/div[4]/div/form[2]/table/tbody/tr/td[1]')
+    found_data = driver.find_elements(By.XPATH ,'//*[@id="contactsTable"]/tbody/tr/td[4]')
+    checkbox_data = driver.find_elements(By.XPATH ,'//*[@id="contactsTable"]/tbody/tr/td[1]/input[1]')
 
     for i in found_data:
         data_list.append(i.text)
