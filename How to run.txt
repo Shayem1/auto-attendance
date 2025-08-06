@@ -1,0 +1,13 @@
+***
+Required files
+- Install python 3.10 (https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe) - opening this link will install python-3.10.0-amd64.exe (will run on intel)
+- Install with git (install with advanced options, select git to install)
+- Run "Redlist.bat" to install nessesary files for the program
+
+***
+Put ONLY the consolidated file and run sort.bat
+This splits the consolidated file for IBMNSW and IBMA
+
+***
+Run "run.bat" after you see 2 new xlsx files
+The program will guide you the rest of the way
